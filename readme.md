@@ -1,0 +1,1 @@
+Halo dodane readme testowo
