@@ -30,7 +30,7 @@
 	&::before {
 		display: block;
 		content: "";
-		position: relative;
+		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -40,7 +40,7 @@
 		transition: transform 0.3s;
 		z-index: -1;
 	}
-	&:hover {
+	&:hover::before {
 		transform: scaleX(1);
 		transform-origin: left;
 	}
