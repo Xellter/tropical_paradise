@@ -116,6 +116,11 @@ body {
 .nav-items-animation {
 	animation: navItemsAnimation 1s both;
 }
+.black-bars-color,
+.black-bars-color::before,
+.black-bars-color::after {
+	background-color: $dark;
+}
 
 // HEADER
 
